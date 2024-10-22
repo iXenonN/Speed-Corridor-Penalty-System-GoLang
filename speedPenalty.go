@@ -100,7 +100,7 @@ func calc() {
 	totalDistance := 7.43 // Yol (km cinsinden)
 
 	// Ceza dosyasını oluştur
-	penaltyFile, err := os.Create("ceza.txt")
+	penaltyFile, err := os.Create("penalty.txt")
 	if err != nil {
 		fmt.Println("Error Creating Penalty File:", err)
 		return
